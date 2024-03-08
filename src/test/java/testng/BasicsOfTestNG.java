@@ -12,8 +12,7 @@ public class BasicsOfTestNG {
         driver.navigate().to("https://www.facebook.com/");
         driver.manage().window().maximize();
         driver.close();
-        System.out.println("Hello");
-        System.out.println("Hello2");
+        
     }
     @Test
     public void testCase2(){
