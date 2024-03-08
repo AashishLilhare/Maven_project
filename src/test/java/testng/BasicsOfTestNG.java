@@ -13,6 +13,7 @@ public class BasicsOfTestNG {
         driver.manage().window().maximize();
         driver.close();
         System.out.println("Hello");
+        System.out.println("Hello2");
     }
     @Test
     public void testCase2(){
